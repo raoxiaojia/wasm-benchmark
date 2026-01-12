@@ -1,0 +1,7 @@
+[submodule "WasmCert-Coq"]
+	path = WasmCert-Coq
+	url = git@github.com:WasmCert/WasmCert-Coq.git
+[submodule "spec"]
+	path = spec
+	url = git@github.com:conrad-watt/spec.git
+	branch = f/benchmarking-utilities-monadic
