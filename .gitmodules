@@ -8,3 +8,6 @@
 [submodule "wasm-coremark-rs"]
 	path = wasm-coremark-rs
 	url = git@github.com:patractlabs/wasm-coremark-rs.git
+[submodule "wasmi"]
+	path = wasmi
+	url = git@github.com:wasmi-labs/wasmi.git
