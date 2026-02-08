@@ -4,7 +4,6 @@
 [submodule "spec"]
 	path = spec
 	url = git@github.com:conrad-watt/spec.git
-	branch = f/benchmarking-utilities-monadic
 [submodule "wasm-coremark-rs"]
 	path = wasm-coremark-rs
 	url = git@github.com:patractlabs/wasm-coremark-rs.git
