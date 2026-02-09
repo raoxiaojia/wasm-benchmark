@@ -24,4 +24,8 @@ cargo build
 echo "wasmi"
 ./target/release/bm wasmi
 
+echo "cleaning up"
+cd ../spec/interpreter
+git checkout master
+
 echo "Done"

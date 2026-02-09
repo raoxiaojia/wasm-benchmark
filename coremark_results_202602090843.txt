@@ -1,0 +1,1711 @@
+Coremark - Rocq
+[0m[36mf32[0m.const [32m+0x1.8f6040p+3[0m
+[0mecho >_tags "true: bin_annot"
+echo >>_tags "true: debug"
+echo >>_tags "true: optimize(classic)"
+echo >>_tags "<{util,syntax,binary,text,valid,runtime,exec,script,host,main,tests,verified,verified_wrapper,verified_wrapper/pbytes}/*.cmx>: for-pack(Wasm)"
+ocamlbuild -use-ocamlfind -lexflags -ml -cflags '-w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types' -I util -I syntax -I binary -I text -I valid -I runtime -I exec -I script -I host -I main -I tests -I verified -I verified_wrapper -I verified_wrapper/pbytes -pkgs zarith -libs bigarray -libs unix -quiet main.native
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/ixx.cmo exec/ixx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/lib.cmi util/lib.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i32.cmo exec/i32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/fxx.cmo exec/fxx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/types.cmo syntax/types.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f32.cmo exec/f32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f64.cmo exec/f64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i16.cmo exec/i16.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i64.cmo exec/i64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i8.cmo exec/i8.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/v128.cmi exec/v128.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/source.cmi util/source.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/values.cmo syntax/values.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/ast.cmo syntax/ast.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/func.cmi runtime/func.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/global.cmi runtime/global.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/memory.cmi runtime/memory.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/table.cmi runtime/table.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/instance.cmo runtime/instance.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/eval.cmi exec/eval.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -I verified_wrapper/pbytes -o binary/utf8.cmi binary/utf8.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/env.cmo host/env.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o main/flags.cmo main/flags.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/import.cmi script/import.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/run.cmi script/run.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/spectest.cmo host/spectest.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o main/main.cmo main/main.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/ixx.cmx exec/ixx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/lib.cmx util/lib.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i32.cmx exec/i32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/fxx.cmx exec/fxx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f32_convert.cmi exec/f32_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f32.cmx exec/f32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i32_convert.cmi exec/i32_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f64.cmx exec/f64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i64.cmx exec/i64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i32_convert.cmx exec/i32_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f64_convert.cmi exec/f64_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i64_convert.cmi exec/i64_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i64_convert.cmx exec/i64_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/types.cmx syntax/types.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f32_convert.cmx exec/f32_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/f64_convert.cmx exec/f64_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i16.cmx exec/i16.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/i8.cmx exec/i8.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/v128.cmx exec/v128.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/source.cmx util/source.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/values.cmx syntax/values.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/error.cmi util/error.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/eval_num.cmi exec/eval_num.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/ast.cmx syntax/ast.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/eval_vec.cmi exec/eval_vec.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/func.cmx runtime/func.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/global.cmx runtime/global.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/memory.cmx runtime/memory.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/table.cmx runtime/table.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/error.cmx util/error.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/eval_num.cmx exec/eval_num.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/eval_vec.cmx exec/eval_vec.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o runtime/instance.cmx runtime/instance.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -I verified_wrapper/pbytes -o binary/utf8.cmx binary/utf8.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o exec/eval.cmx exec/eval.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f32Wrapper.cmo verified_wrapper/f32Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f64Wrapper.cmo verified_wrapper/f64Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/libAux.cmo verified_wrapper/libAux.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/v128Wrapper.cmo verified_wrapper/v128Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f32Wrapper_convert.cmo verified_wrapper/f32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f64Wrapper_convert.cmo verified_wrapper/f64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/i32Wrapper_convert.cmo verified_wrapper/i32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/i64Wrapper_convert.cmo verified_wrapper/i64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/implWrapper.cmo verified_wrapper/implWrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/script.cmo script/script.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I binary -I host -I verified_wrapper/pbytes -o verified/WasmRef_Isa.cmo verified/WasmRef_Isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/ast_convert.cmo verified_wrapper/ast_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f32Wrapper.cmx verified_wrapper/f32Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f64Wrapper.cmx verified_wrapper/f64Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/libAux.cmx verified_wrapper/libAux.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/v128Wrapper.cmx verified_wrapper/v128Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f32Wrapper_convert.cmx verified_wrapper/f32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/f64Wrapper_convert.cmx verified_wrapper/f64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/i32Wrapper_convert.cmx verified_wrapper/i32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/i64Wrapper_convert.cmx verified_wrapper/i64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/implWrapper.cmx verified_wrapper/implWrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/script.cmx script/script.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I binary -I host -I verified_wrapper/pbytes -o verified/WasmRef_Isa.cmx verified/WasmRef_Isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -I verified_wrapper/pbytes -o binary/decode.cmi binary/decode.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -I verified_wrapper/pbytes -o binary/encode.cmi binary/encode.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/free.cmi syntax/free.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/free.cmx syntax/free.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/operators.cmo syntax/operators.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -I verified_wrapper/pbytes -o binary/encode.cmx binary/encode.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o syntax/operators.cmx syntax/operators.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/env_isa.cmo host/env_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o main/flags.cmx main/flags.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/import.cmx script/import.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/js.cmi script/js.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -I verified_wrapper/pbytes -o binary/decode.cmx binary/decode.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/parse.cmi text/parse.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/parser.cmi text/parser.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/lexer.cmi text/lexer.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/parser.cmx text/parser.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/lexer.cmx text/lexer.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/parse.cmx text/parse.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/print.cmi text/print.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/sexpr.cmi util/sexpr.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/arrange.cmi text/arrange.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o util/sexpr.cmx util/sexpr.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/arrange.cmx text/arrange.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/spectest_isa.cmo host/spectest_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o verified_wrapper/ast_convert.cmx verified_wrapper/ast_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I valid -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o valid/valid.cmi valid/valid.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/env_isa.cmx host/env_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/js.cmx script/js.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -I verified_wrapper/pbytes -o text/print.cmx text/print.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/spectest_isa.cmx host/spectest_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I valid -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o valid/valid.cmx valid/valid.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/env.cmx host/env.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o script/run.cmx script/run.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I verified_wrapper/pbytes -o host/spectest.cmx host/spectest.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -I verified_wrapper/pbytes -o main/main.cmx main/main.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
+mv main.native wasm
+rm _tags
+Coremark - reference interpreter
+3.329_726_219_177_246_1 : f32
+Coremark - Isabelle (non-monadic)
+10.811_979_293_823_242 : f32
+Coremark - Isabelle (monadic)
+echo >_tags "true: bin_annot"
+echo >>_tags "true: debug"
+echo >>_tags "true: optimize(classic)"
+echo >>_tags "<{util,syntax,binary,text,valid,runtime,exec,script,host,main,tests,verified,verified_wrapper}/*.cmx>: for-pack(Wasm)"
+ocamlbuild -use-ocamlfind -lexflags -ml -cflags '-w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types' -I util -I syntax -I binary -I text -I valid -I runtime -I exec -I script -I host -I main -I tests -I verified -I verified_wrapper -pkgs zarith -libs bigarray -libs unix -quiet main.native
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/ixx.cmo exec/ixx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/lib.cmi util/lib.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i32.cmo exec/i32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/fxx.cmo exec/fxx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/types.cmo syntax/types.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f32.cmo exec/f32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f64.cmo exec/f64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i16.cmo exec/i16.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i64.cmo exec/i64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i8.cmo exec/i8.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/v128.cmi exec/v128.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/source.cmi util/source.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/values.cmo syntax/values.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/ast.cmo syntax/ast.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/func.cmi runtime/func.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/global.cmi runtime/global.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/memory.cmi runtime/memory.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/table.cmi runtime/table.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/instance.cmo runtime/instance.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/eval.cmi exec/eval.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -o binary/utf8.cmi binary/utf8.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/env.cmo host/env.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o main/flags.cmo main/flags.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/import.cmi script/import.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/run.cmi script/run.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/spectest.cmo host/spectest.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o main/main.cmo main/main.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/ixx.cmx exec/ixx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/lib.cmx util/lib.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i32.cmx exec/i32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/fxx.cmx exec/fxx.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f32_convert.cmi exec/f32_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f32.cmx exec/f32.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i32_convert.cmi exec/i32_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f64.cmx exec/f64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i64.cmx exec/i64.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i32_convert.cmx exec/i32_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f64_convert.cmi exec/f64_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i64_convert.cmi exec/i64_convert.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i64_convert.cmx exec/i64_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/types.cmx syntax/types.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f32_convert.cmx exec/f32_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/f64_convert.cmx exec/f64_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i16.cmx exec/i16.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/i8.cmx exec/i8.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/v128.cmx exec/v128.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/source.cmx util/source.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/values.cmx syntax/values.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/error.cmi util/error.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/eval_num.cmi exec/eval_num.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/ast.cmx syntax/ast.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/eval_vec.cmi exec/eval_vec.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/func.cmx runtime/func.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/global.cmx runtime/global.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/memory.cmx runtime/memory.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/table.cmx runtime/table.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/error.cmx util/error.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/eval_num.cmx exec/eval_num.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/eval_vec.cmx exec/eval_vec.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I runtime -I verified_wrapper -I exec -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o runtime/instance.cmx runtime/instance.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -o binary/utf8.cmx binary/utf8.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I exec -I verified_wrapper -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o exec/eval.cmx exec/eval.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f32Wrapper.cmo verified_wrapper/f32Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f64Wrapper.cmo verified_wrapper/f64Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/libAux.cmo verified_wrapper/libAux.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/v128Wrapper.cmo verified_wrapper/v128Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f32Wrapper_convert.cmo verified_wrapper/f32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f64Wrapper_convert.cmo verified_wrapper/f64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/i32Wrapper_convert.cmo verified_wrapper/i32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/i64Wrapper_convert.cmo verified_wrapper/i64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/implWrapper.cmo verified_wrapper/implWrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I binary -I host -o verified/WasmRef_Isa_m.cmo verified/WasmRef_Isa_m.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/ast_convert.cmo verified_wrapper/ast_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f32Wrapper.cmx verified_wrapper/f32Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f64Wrapper.cmx verified_wrapper/f64Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/libAux.cmx verified_wrapper/libAux.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/v128Wrapper.cmx verified_wrapper/v128Wrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f32Wrapper_convert.cmx verified_wrapper/f32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/f64Wrapper_convert.cmx verified_wrapper/f64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/i32Wrapper_convert.cmx verified_wrapper/i32Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/i64Wrapper_convert.cmx verified_wrapper/i64Wrapper_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/implWrapper.cmx verified_wrapper/implWrapper.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I binary -I host -o verified/WasmRef_Isa_m.cmx verified/WasmRef_Isa_m.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -o binary/decode.cmi binary/decode.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -o binary/encode.cmi binary/encode.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/free.cmi syntax/free.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/free.cmx syntax/free.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/operators.cmo syntax/operators.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -o binary/encode.cmx binary/encode.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I syntax -I verified_wrapper -I exec -I runtime -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o syntax/operators.cmx syntax/operators.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/env_isa.cmo host/env_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o main/flags.cmx main/flags.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/import.cmx script/import.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/script.cmo script/script.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/js.cmi script/js.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I binary -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I host -o binary/decode.cmx binary/decode.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/parse.cmi text/parse.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/parser.cmi text/parser.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/lexer.cmi text/lexer.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/script.cmx script/script.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/parser.cmx text/parser.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/lexer.cmx text/lexer.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/parse.cmx text/parse.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/print.cmi text/print.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/sexpr.cmi util/sexpr.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/arrange.cmi text/arrange.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I util -I verified_wrapper -I exec -I runtime -I syntax -I main -I tests -I valid -I script -I text -I verified -I binary -I host -o util/sexpr.cmx util/sexpr.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/arrange.cmx text/arrange.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/spectest_isa.cmo host/spectest_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o verified_wrapper/ast_convert.cmx verified_wrapper/ast_convert.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlc -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -package zarith -I valid -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I script -I text -I verified -I binary -I host -o valid/valid.cmi valid/valid.mli
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/env_isa.cmx host/env_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/js.cmx script/js.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I text -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I verified -I binary -I host -o text/print.cmx text/print.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/spectest_isa.cmx host/spectest_isa.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I valid -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I script -I text -I verified -I binary -I host -o valid/valid.cmx valid/valid.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/env.cmx host/env.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I script -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I text -I verified -I binary -I host -o script/run.cmx script/run.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I host -I verified_wrapper -I exec -I runtime -I syntax -I main -I util -I tests -I valid -I script -I text -I verified -I binary -o host/spectest.cmx host/spectest.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
++ ocamlfind ocamlopt -c -w +a-3-4-8-11-20-26-27-32-39-42-44-45-70 -warn-error -unboxed-types -g -bin-annot -for-pack Wasm -Oclassic -package zarith -I main -I verified_wrapper -I exec -I runtime -I syntax -I util -I tests -I valid -I script -I text -I verified -I binary -I host -o main/main.cmx main/main.ml
+File "_none_", line 1:
+Alert ocaml_deprecated_cli: Setting a warning with a sequence of lowercase or uppercase letters,
+like 'ypes', is deprecated.
+Use the equivalent signed form: -u-n-b-o-x-e-d-t-y-p-e-s.
+Hint: Enabling or disabling a warning by its mnemonic name requires a + or - prefix.
+Hint: Did you make a spelling mistake when using a mnemonic name?
+mv main.native wasm
+rm _tags
+18.303_844_451_904_297 : f32
+wasmtime
+Running Coremark 1.0 using wasmtime... [should take 12..20 seconds]
+Result: 21511.545
+wasmi
+Running Coremark 1.0 using wasmi... [should take 12..20 seconds]
+Result: 529.8651
+cleaning up
+Your branch is up to date with 'origin/master'.
+Done
