@@ -21,7 +21,7 @@
       (loop $check
         (br_if $exit (i32.ge_u (local.get $i) (local.get $size)))
         (if (i32.ne (i32.load8_u (local.get $i)) (i32.const 255))
-          (then (return (local.get $i)))
+          (then (return (i32.add (i32.const 1) (local.get $i))))
         )
         (local.set $i (i32.add (local.get $i) (i32.const 1)))
         (br $check)

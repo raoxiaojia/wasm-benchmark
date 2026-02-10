@@ -36,7 +36,7 @@
         (br_if $exitR (i32.ge_u (local.get $i) (local.get $size)))
 
         (if (i32.ne (i32.load (local.get $i)) (i32.const -1))
-          (then (return (local.get $i)))
+          (then (return (i32.add (i32.const 1) (local.get $i))))
         )
 
         (local.set $i (i32.add (local.get $i) (i32.const 4)))

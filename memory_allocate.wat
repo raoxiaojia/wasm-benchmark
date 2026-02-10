@@ -27,7 +27,7 @@
             (i32.const 0)
           )
           (then
-            (return (local.get $i))
+            (return (i32.add (i32.const 1) (local.get $i)))
           )
         )
 
