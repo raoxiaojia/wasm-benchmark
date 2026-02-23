@@ -5,7 +5,7 @@ dune build
 ./wasm_coq_interpreter.exe ../wasm-coremark/coremark-minimal.wasm -r run
 
 cd ../spec/interpreter
-git checkout 547d565
+git checkout a160f21
 make
 echo "Coremark - reference interpreter"
 ./wasm ../../wasm-coremark/coremark-minimal.wasm -e '(invoke "run")'
